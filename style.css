@@ -24,6 +24,7 @@ section > h1 {
     font-weight: bold;
     border-bottom: 2px groove #000;
     padding-bottom: 20px;
+    color: white;
 }
 
 section .details {
@@ -53,7 +54,6 @@ section .details {
     background: #e5c0c0;
     margin-top: 30px;
     padding-top: 30px;
-    text-align: center;
 }
 
 #links ul{
@@ -64,11 +64,16 @@ section .details {
 #links ul>li{
     list-style: none;
     padding-top: 20px;
+    padding-left: 20px;
 }
 
 #links ul>li>a{
     font-size: 18px;
-    color: red;
+    color: rgb(29, 164, 218);
     font-weight: bolder;
-    padding-right: 20px;
+}
+
+#links ul>li>a:hover{
+    color: white;
+    cursor: pointer;
 }
