@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section {
+  max-width: 60%;
+  background-color: #9dc896;
+  width: 250px;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+section > h1 {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px groove #000;
+    padding-bottom: 20px;
+}
+
+section .details {
+    padding: 15px 0;
+}
+
+.about h2 {
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+.about #bio {
+    text-align: justify;
+}
+
+.about #bio p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#links #myLinks {
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 5%;
+    background: #e5c0c0;
+    margin-top: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#links ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#links ul>li{
+    list-style: none;
+    padding-top: 20px;
+}
+
+#links ul>li>a{
+    font-size: 18px;
+    color: red;
+    font-weight: bolder;
+    padding-right: 20px;
+}
